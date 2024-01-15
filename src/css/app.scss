@@ -1,0 +1,23 @@
+@import "animate";
+@import "mixins/colors-class-names";
+@import "helpers/text";
+@import "helpers/shadows";
+@import "helpers/fonts";
+@import "global";
+
+@media print {
+  #pdfContent {
+    display: block !important;
+    background: red !important;
+  }
+
+  #pdf-header {
+    font-size: 22px;
+    font-weight: 800;
+    margin: auto;
+    text-align: center;
+    color: blue !important;
+  }
+
+  /* CSS styles specific to PDF layout */
+}
